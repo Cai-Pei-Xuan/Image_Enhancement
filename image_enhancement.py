@@ -187,7 +187,7 @@ def main():
     SharpenImage.save( "SharpenImage.jpg" )
 
     # 創建1.1倍亮度的銳化圖
-    SharpenBrightnessImage = Increase_Brightness(SharpenImage)          # 將NormalizationImage加上灰階圖片
+    SharpenBrightnessImage = Increase_Brightness(SharpenImage)          # 將SharpenImage調高的1.1倍亮度
     SharpenBrightnessImage.save( "SharpenBrightnessImage.jpg" )
 
 
