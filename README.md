@@ -20,4 +20,4 @@ python image_enhancement.py
 - BlurImage.jpg : 將SobelImage做模糊(去雜訊)
 - NormalizationImage.jpg : 將BlurImage正規化到0.0~1.0，乘上LaplacianImage
 - SharpenImage.jpg : 將NormalizationImage加上灰階圖片
-- SharpenBrightnessImage.jpg : 將NormalizationImage加上灰階圖片
+- SharpenBrightnessImage.jpg : 將SharpenImage調高的1.1倍亮度
